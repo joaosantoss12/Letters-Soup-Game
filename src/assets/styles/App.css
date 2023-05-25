@@ -8,7 +8,6 @@
   border-radius: 10px;
   padding-top:15px;
 }
-
 #container > header {
   font-size: 1.2em;
   text-align: center;
@@ -43,7 +42,6 @@ footer p{
   padding: 0;
   box-sizing: inherit;
 }
-
 .title {
   font-weight: bolder;
   text-transform: uppercase;
