@@ -11,7 +11,6 @@
     --top10Color: #404487;
     --gameOverColor: #404487;
   }
-  
   * {
     margin: 0;
     padding: 0;
@@ -32,7 +31,6 @@
     padding: 5px;
     border-radius: 5px;
   }
-  
   select,
   button {
     cursor: pointer;
