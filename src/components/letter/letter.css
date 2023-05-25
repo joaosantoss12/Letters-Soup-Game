@@ -1,0 +1,20 @@
+.letter{
+    text-align: center;
+    border:1px solid black;
+    border-radius:5px;
+    padding:8px;
+    margin:2px;
+    font-weight: bold;
+}
+.letter:hover{
+    cursor:pointer;
+    background-color:#a093cf;
+}
+.letter.clicked{
+    background-color: #8a61c8;
+}
+
+.letter.found{
+    background-color: gray;
+    pointer-events: none;
+}

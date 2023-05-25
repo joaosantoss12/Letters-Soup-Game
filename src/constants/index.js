@@ -1,0 +1,16 @@
+export const LETRAS = [
+    "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R",
+    "S","T","U","V","X","Z",
+];
+
+export const PALAVRAS = [
+    "ISEC","JAVASCRIPT","REACT","HTML","CSS","INFORMATICA","COMPUTADOR","ESTUDANTE",
+    "COIMBRA","CABULA","PERIFERICOS","INTERNET","JOGO","PORTUGAL","TIJOLO","CINZENTO",
+    "CALOIRO","DOUTOR","PRAXE","EUROPA","ERASMUS","DEPARTAMENTO","PROGRAMACAO",
+    "VERAO","FERIAS","PRAIA","PISCINA","NODEJS","RATO","DEIS","CAFE","DIA","NOITE",
+    "VSCODE","SOL","LUA",
+];
+
+export const TIMEOUT_BASICO = 60;
+export const TIMEOUT_INTERMEDIO = 90;
+export const TIMEOUT_AVANCADO = 120;

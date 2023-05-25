@@ -1,0 +1,107 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo da Sopa de Letras em React
+*** Estilos para game-panel.componente.jsx 
+**********************************************/
+
+#game-panel {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .panel{
+    margin-top:55px;
+    margin-bottom:20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  #game {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 1px;
+    display: grid;
+    justify-content: center;
+    perspective: 1000px;
+    user-select: none;
+  }
+  
+  #game.intermedio {
+    width: 100%;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    
+  }
+  
+  #game.avancado {
+    width: 100%;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  
+  #game span{
+    border:2px solid black;
+    padding:10px;
+    border-radius:2px;
+  }
+
+  #game.hide{
+    display: none;
+  }
+
+  .wordlist{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:5px;
+    margin: 50px;
+    margin-top:0px;
+    margin-top: 10px;
+    margin-bottom:25px;
+    flex-wrap: nowrap;
+  }
+  .addWord{
+    border:2px solid black;
+    padding:3px;
+    text-transform: uppercase;
+    font-size:15px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .header-game-panel{
+    display:flex;
+    justify-content: center;
+  }
+  .header-game-panel button{
+    border:none;
+    font-size:1.2rem;
+    font-weight: bold;
+    padding:0;
+    color:white;
+    margin-left:5px;
+    padding:0 4px;
+    background-color: #a487aa;
+  }
+  .header-game-panel button:hover{
+    background-color: #5b3156;
+    color:white;
+  }
+
+  .newWordInput{
+    display:flex;
+  }
+  .newWordInput button{
+    border-radius: 0;
+    background-color: #a487aa;
+    margin-left: 5px;
+  }
+  .newWordInput button:hover{
+    background-color: #b340ca;
+    border-color:initial;
+  }
+
+  .dontAddWord{
+    display:none;
+  }
